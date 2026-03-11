@@ -1,5 +1,6 @@
 package com.example.androidapplication02;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.text.Editable;
@@ -129,6 +130,17 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     etRegPwd.setError(null);
                 }
+            }
+        });
+
+        // 绑定跳转按钮并设置点击事件 (使用 Intent 实现跳转)
+        Button btnGoToImage = findViewById(R.id.btn_go_to_image);
+        btnGoToImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // 第一个参数是当前上下文，第二个参数是目标 Activity 的类名
+                Intent intent = new Intent(MainActivity.this, ImageViewerActivity.class);
+                startActivity(intent);
             }
         });
     }
