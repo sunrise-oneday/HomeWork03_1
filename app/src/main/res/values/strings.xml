@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidApplication02</string>
+    <string name="reg_name">姓名</string>
+    <string name="reg_sex">性别</string>
+    <string name="reg_sex_male">男</string>
+    <string name="reg_sex_female">女</string>
+    <string name="reg_pwd">密码</string>
+    <string name="reg_regist">注册</string>
+    <string name="reg_login">登录</string>
+</resources>

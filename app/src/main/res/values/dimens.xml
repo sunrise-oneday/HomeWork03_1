@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="reg_line_height">35dip</dimen>
+    <dimen name="space_5">5dip</dimen>
+    <dimen name="reg_text_width">140dip</dimen>
+    <dimen name="reg_edit_width">160dip</dimen>
+</resources>
